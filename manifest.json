@@ -1,27 +1,78 @@
 {
-  "name": "jat",
-  "version": "0.1",
-  "description": "J-A-T",
-  "permissions": ["storage", "declarativeContent", "activeTab"],
-  "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
-  "options_page": "options.html",
-  "page_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
+  "name": "Vampyr",
+  "version": "1.0",
+  "description": "Vampyr Theme for Chrome",
+  "theme": {
+    "images": {
+      "theme_frame": "images/Vampyr_logo.png",
+      "theme_frame_inactive": "images/Vampyr_logo.png",
+      "theme_frame_incognito": "images/Vampyr_logo.png",
+      "theme_frame_incognito_inactive": "images/Vampyr_logo.png",
+      "theme_ntp_background": "images/vampyr_wp.png"
+    },
+    "colors": {
+      "ntp_link": [
+        255,
+        255,
+        255
+      ],
+      "ntp_text": [
+        255,
+        255,
+        255
+      ],
+      "ntp_section_link": [
+        255,
+        255,
+        255
+      ],
+      "ntp_section_text": [
+        10,
+        17,
+        27
+      ],
+      "ntp_background": [
+        10,
+        17,
+        27
+      ],
+      "frame": [
+        21,
+        21,
+        20
+      ],
+      "toolbar": [
+        10,
+        17,
+        27
+      ],
+      "tab_text": [
+        255,
+        255,
+        255
+      ],
+      "tab_background_text": [
+        10,
+        17,
+        27
+      ],
+      "bookmark_text": [
+        255,
+        255,
+        255
+      ]
+    },
+    "tints": {
+      "buttons": [
+        0.33,
+        0.5,
+        0.47
+      ]
+    },
+    "properties": {
+      "ntp_background_alignment": "bottom",
+      "ntp_background_repeat": "no-repeat"
     }
-  },
-  "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
   },
   "manifest_version": 2
 }
