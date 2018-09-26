@@ -11,63 +11,20 @@
       "theme_ntp_background": "images/vampyr_wp.png"
     },
     "colors": {
-      "ntp_link": [
-        255,
-        255,
-        255
-      ],
-      "ntp_text": [
-        255,
-        255,
-        255
-      ],
-      "ntp_section_link": [
-        255,
-        255,
-        255
-      ],
-      "ntp_section_text": [
-        10,
-        17,
-        27
-      ],
-      "ntp_background": [
-        10,
-        17,
-        27
-      ],
-      "frame": [
-        21,
-        21,
-        20
-      ],
-      "toolbar": [
-        10,
-        17,
-        27
-      ],
-      "tab_text": [
-        255,
-        255,
-        255
-      ],
-      "tab_background_text": [
-        10,
-        17,
-        27
-      ],
-      "bookmark_text": [
-        255,
-        255,
-        255
-      ]
+      "frame": [21, 21, 20],
+      "frame_inactive": [137, 138, 137],
+      "frame_incognito": [21, 21, 20],
+      "frame_incognito_inactive": [137, 138, 137],
+      "background_tab": [99, 99, 99],
+      "background_tab_inactive": [128, 128, 129],
+      "background_tab_incognito": [99, 99, 99],
+      "background_tab_incognito_inactive": [128, 128, 129],
+      "toolbar": [21, 21, 20],
+      "tab_text": [127, 125, 126],
+      "tab_text_inactive": [76, 76, 76]
     },
     "tints": {
-      "buttons": [
-        0.33,
-        0.5,
-        0.47
-      ]
+      "buttons": [0.33, 0.5, 0.47]
     },
     "properties": {
       "ntp_background_alignment": "bottom",
