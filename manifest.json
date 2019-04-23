@@ -1,13 +1,9 @@
 {
   "name": "Vampyr",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Vampyr Theme for Chrome",
   "theme": {
     "images": {
-      "theme_frame": "images/Vampyr_logo.png",
-      "theme_frame_inactive": "images/Vampyr_logo.png",
-      "theme_frame_incognito": "images/Vampyr_logo.png",
-      "theme_frame_incognito_inactive": "images/Vampyr_logo.png",
       "theme_ntp_background": "images/vampyr_wp.png"
     },
     "colors": {
